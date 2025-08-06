@@ -1,4 +1,5 @@
-```import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+```
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { getPosts } from "./postsAPI";
 
 const initialState = {
@@ -36,4 +37,5 @@ const postSlice = createSlice({
   },
 });
 
-export default postSlice.reducer;```
+export default postSlice.reducer;
+```
